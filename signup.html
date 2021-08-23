@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>signup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body{
+            text-align: center;
+        }
+        .signup{
+            margin-top: 10px;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 10px;
+            
+        }
+        img{
+            background-color: white;
+            height: 60px;
+            width: 130px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo4.png"><br><br>
+    <h1>Sign up for free to start listening</h1><br>
+    <button type="button" class="btn btn-primary">Sign up with Facebook</button>
+    <div class="signup">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">What's your email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter a email">
+              
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Confirm  your email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter a email again">
+                
+            </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"> Create a Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" enter a Password">
+              </div>
+              
+              <div class="form-group">
+                <label for="formGroupname">What should we call you?</label>
+                <input type="text" class="form-control" id="formGroupname" placeholder="Enter a profile Name">
+              </div>
+            </div>
+            
+            
+            <div class="radio">
+                <label><span style="font-weight: bold">What's your gender?</span></label> <br>
+                <label><input type="radio" name="optradio" checked>Male</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Female</label>
+              </div>
+              <div class="radio ">
+                <label><input type="radio" name="optradio" >Others</label>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalid" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    I would prefer not to receive marketting message from spotify
+                  </label>
+                 
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Share my registeration data with spotify's content provides for marketting purpose.
+                    </label>
+                   
+                </div>
+            
+              <button class="btn btn-success" type="submit">Sign Up</button>
+             
+         </form>
+            
+           
+
+    </div>
+
+</body>
+</html>
